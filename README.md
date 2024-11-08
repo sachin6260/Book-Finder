@@ -59,7 +59,6 @@ Interactive Hover Effects: Hover over a book card or image for an enhanced view.
 
 🤝 Contributing
 Contributions are welcome! Please follow these steps:
-
 Fork the repository
 Create your feature branch: git checkout -b feature/YourFeature
 Commit your changes: git commit -m 'Add your message here'
