@@ -31,22 +31,6 @@ Copy code
 npm start
 Open http://localhost:3000 to view it in the browser.
 
-📂 Project Structure
-graphql
-Copy code
-├── public
-├── src
-│   ├── components
-│   │   ├── SearchBar.jsx         # The main search bar component
-│   │   └── BookItem.jsx          # Book card component
-│   │   └── BookList.jsx          # Book List component
-│   ├── App.js                    # Main app structure
-│   ├── index.js                  # App entry point
-│   └── styles
-│       └── SearchBar.css             # Custom CSS for the application
-│       └── BookList.css  
-│      └── BookItem.css 
-└── README.md
 🖌 Styling
 The application is designed with a soft color palette and clean card layout.
 Books are displayed with consistent image sizes and hover effects for an interactive experience.
