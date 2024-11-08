@@ -1,0 +1,15 @@
+ /* General Reset */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic App Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light Gray */
+  color: #333;
+}

@@ -1,0 +1,64 @@
+/* Centering form and adding subtle animation */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Input field styling with rounded corners */
+  form input[type="text"] {
+    padding: 16px 18px;
+    font-size: 1em;
+    width: 480px;
+    max-width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 50px; /* Fully rounded corners */
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input focus effect */
+  form input[type="text"]:focus {
+    border-color: #007acc;
+    box-shadow: 0 6px 12px rgba(0, 122, 204, 0.3);
+  }
+  
+  /* Button styling with rounded corners and animation */
+  form button {
+    padding: 16px 25px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007acc;
+    border: none;
+    border-radius: 50px; /* Fully rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button hover and active effects */
+  form button:hover {
+    background-color: #005f99;
+    transform: translateY(-3px); /* Lift button on hover */
+  }
+  
+  form button:active {
+    transform: translateY(0); /* Reset position on click */
+  }
+  
+  /* Fade-in animation for the form */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

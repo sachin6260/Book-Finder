@@ -1,0 +1,25 @@
+ 
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main Heading Styling */
+h1 {
+  font-size: 3em;  
+  color: #007bff;  
+  font-weight: 700;  
+  text-align: center;  
+  margin-top: 20px;  
+  margin-bottom: 20px;  
+  letter-spacing: 1px; 
+   font-family: 'Poppins', sans-serif;  
+}
+
+ 
+
+ 
+ 

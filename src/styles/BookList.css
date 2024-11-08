@@ -1,0 +1,14 @@
+/* Book list container */
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* More flexible grid layout */
+  gap: 20px; /* Increased gap for better spacing */
+  justify-items: center;
+  padding: 20px;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .book-list {
+    gap: 15px;
+  }
+}
